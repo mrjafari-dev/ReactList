@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function (){
+export default function (value){
   return(
-    <h2>Title #1</h2>
+    <h2>{value.title}</h2>
   )
 }

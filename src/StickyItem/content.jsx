@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Content (){
+export default function Content (value){
   return(
-    <p>Text Content #1</p>
+    <p>{value.content}</p>
   )
 }
